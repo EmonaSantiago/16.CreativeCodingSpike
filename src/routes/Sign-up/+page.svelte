@@ -65,7 +65,7 @@
     <fieldset>
       <legend>Online</legend>
       <label for="url">Website url</label>
-      <input id="url" type="url" placeholder required>
+      <input id="url" type="url" required>
       <p class="tooltip">http://</p>
   
       <label for="mail" >E-mail</label>
@@ -87,11 +87,11 @@
     --oba-light-blue: #E3E9F9;
     --oba-red: #FF0000;
 }
-html {
+/* html {
   font:100% / 250% "Monaco";
   padding:0;
   margin:0;
-}
+}  */
 body {
   font-size: 1em;
   padding:2em;
@@ -197,7 +197,7 @@ input::placeholder {
   color:rgba(0,0,0,.25);
   font-style:italic;
 }
-button {
+/* button {
   font-size: 1.25em;
   flex:0 0 2em;
   transition:all .2s .2s;
@@ -243,7 +243,7 @@ button:focus {
 }
 fieldset:valid .feedback {
   transform:translateY(0)
-}
+} */
 
 a:link, a:visited {
   background-color: #f44336;
